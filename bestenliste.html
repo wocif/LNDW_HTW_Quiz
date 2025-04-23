@@ -1,0 +1,39 @@
+
+    <!DOCTYPE html>
+    <html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bestenliste</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            table { width: 50%; border-collapse: collapse; margin: 0 auto; }
+            th, td { padding: 10px; border: 1px solid #ddd; text-align: center; }
+            th { background-color: #f4f4f4; }
+            h1 { text-align: center; }
+        </style>
+        <script>
+            function reloadPage() {
+                setTimeout(function() {
+                    window.location.reload();
+                }, 10000); // 10000 Millisekunden = 10 Sekunden
+            }
+        </script>
+    </head>
+    <body onload="reloadPage()">
+        <h1>Bestenliste (Top 30)</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Platz</th>
+                    <th>Name</th>
+                    <th>Prozent</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
